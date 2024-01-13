@@ -1,0 +1,91 @@
+*{
+    background: #1D1D23;
+}
+.h1{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+}
+.timerInputs{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #39393E;
+    width: 35vw;
+    height: 80px;
+    border-radius: 20px;
+padding-inline: 20px;
+margin-top: 100px;
+}
+.timerInput{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #39393E;
+    width: 60vw;
+    height: 80px;
+    margin: auto;
+    border-radius: 20px;
+padding-inline: 20px;
+margin-top: 100px;
+}
+.timerInput>input {
+    background-color: #FFF;
+}
+.timerInput>label{
+    background-color: transparent;
+    color: #FFF;
+    font-weight: 500;
+    font-size: large;
+}
+
+.timerInput>.btn{
+    border-radius: 26px;
+    background: #F0F757;
+    width: 124px;
+height: 52px;
+}
+.timerInputs>.btn{
+    border-radius: 26px;
+    background: #F0F757;
+    width: 124px;
+height: 52px;
+}
+.current-timers{
+    border-radius: 50px;
+background: #39393E;
+    margin-inline: auto;
+    width: 413px;
+height: 66px;
+padding: 6px;
+margin-top: 50px;
+}
+.current-timers>p{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+background-color: transparent;
+}
+.no-timers{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.timerEnded {
+     background-color: #66ff66;
+     color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+}
+.hide{
+    display: none;
+}
